@@ -1,65 +1,106 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-	<title>PROJECT: NIVEDA</title>
-	<link rel="stylesheet" type="text/css" href="./styles/style.css">
-</head>
-<body>  
-<!-- Design by: Björgvin Pétur Sigurjónsson -->
-<!-- Pen link: https://dribbble.com/shots/6934545-Navbar-experiment -->
-
-<div class="nav">
-
-  <div class="nav__item">
-    <button class="active">
-        <svg class="icon" viewBox="0 0 24 24">
-            <path fill="#000000" d="M9,13H15V19H18V10L12,5.5L6,10V19H9V13M4,21V9L12,3L20,9V21H4Z" />
-        </svg>
-        <span class="text" data-title="One">Home</span>
-      </button>
-  </div>
-
-  <div class="nav__item">
-    <button>
-        <svg class="icon" viewBox="0 0 24 24">
-            <path fill="#000000" d="M6,2A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2H6M6,4H13V9H18V20H6V4M8,12V14H16V12H8M8,16V18H13V16H8Z" />
-        </svg>
-        <span class="text" data-title="Two">News Feed</span>
-      </button>
-  </div>
-
-  <div class="nav__item">
-    <button>
-        <svg class="icon" viewBox="0 0 24 24">
-            <path fill="#000000" d="M12,18.54L19.37,12.8L21,14.07L12,21.07L3,14.07L4.62,12.81L12,18.54M12,16L3,9L12,2L21,9L12,16M12,4.53L6.26,9L12,13.47L17.74,9L12,4.53Z" />
-        </svg>
-        <span class="text" data-title="Four">Projects</span>
-      </button>
-  </div>
-  
-  <div class="nav__item">
-    <button>
-        <svg class="icon" viewBox="0 0 24 24">
-            <path fill="#000000" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z" />
-        </svg>
-        <span class="text" data-title="Three">Account</span>
-      </button>
-  </div>
-
-  <div class="nav__item">
-    <button>
-        <svg class="icon" viewBox="0 0 24 24">
-            <path fill="#000000" d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" />
-        </svg>
-        <span class="text" data-title="Five">Settings</span>
-      </button>
-  </div>
-
-  <div class="nav__active-indicator"></div>
-</div>
-<div class="content-wrapper">HELLO!</div>
-<script src="./scripts/script.js"></script>
-  </body>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Askbootstrap">
+      <meta name="author" content="Askbootstrap">
+      <title>VIDOE - Video Streaming Website HTML Template</title>
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/png" href="img/favicon.png">
+      <!-- Bootstrap core CSS-->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template-->
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <!-- Custom styles for this template-->
+      <link href="css/osahan.css" rel="stylesheet">
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+   </head>
+   <body class="login-main-body">
+      <section class="login-main-wrapper">
+			 <div class="container-fluid pl-0 pr-0">
+				<div class="row no-gutters">
+				   <div class="col-md-5 p-5 bg-white full-height">
+					  <div class="login-main-left">
+						 <div class="text-center mb-5 login-main-left-header pt-4">
+							<img src="img/logo.png" class="img-fluid" alt="LOGO">
+							<div class="mt-3 mb-3"><span style="font-size:20px;font-weight:bold;color:black;">SILVERSKOLL DIGITAL TRENDS</span></div>
+							<p style="font-size:13px!important;">Digital Goods & Services Marketplace.<br>Limitless Exclusive Offers for You!</p>
+						 </div>
+						 <div>
+							<div class="form-group">
+							   <label>For Malaysian Customers</label>
+							</div>
+							<div class="text-center mt-5">
+							<p class="light-gray">Explore us on our partnered e-markets</p>
+							</div>
+							<div class="mt-4">
+							   <button type="submit" class="btn btn-outline-primary btn-block btn-lg" onclick=window.open('https://www.lazada.com.my/shop/silverskoll-digital-trends','_blank');> <span><img src="img/lazadalogo.png" class="ecomlogo"></span> LAZADA</button>
+							</div>
+							<div class="mt-4">
+							   <button type="submit" class="btn btn-outline-primary btn-block btn-lg" onclick=window.open('https://shopee.com.my/sharveenvarmamurthy');> <span><img src="img/shopeelogo.jpg" class="ecomlogo"></span> SHOPEE</button>
+							</div>
+						 </div>
+						 <div style="padding-top:70px">
+							<div class="form-group">
+							   <label>Social Media Pages/Marketplace</label>
+							</div>
+							<div class="text-center mt-5">
+							<p class="light-gray">Surf our best picks & tech updates</p>
+							</div>
+								<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+								<footer>
+								  <div class="rounded-social-buttons">
+													<a class="social-button facebook" href="https://www.facebook.com/SilverskollDigitalTrends" target="_blank"><i class="fab fa-facebook-f"></i></a>
+													<a class="social-button instagram" href="https://www.instagram.com/silverskoll_digital_trends/" target="_blank"><i class="fab fa-instagram"></i></a>
+												</div>
+								</footer>
+						 </div>   
+					  </div>				 
+				   </div>
+				   <div class="col-md-7">
+					  <div class="login-main-right bg-white p-5 mt-5 mb-5">
+						 <div class="owl-carousel owl-carousel-login">
+							<div class="item">
+							   <div class="carousel-login-card text-center">
+								  <img src="img/product_1.png" class="img-carousel" alt="LOGO">
+								  <h5 class="mt-5 mb-3">Google Drive Unlimited Storage <!--<span style="font-size:15px!important;text-decoration:italic!important;">(Latest Version)</span>--></h5>
+								  <p class="mb-4">Does running out of storage alert creeps you?<br>Store almost everything you love endlessly! Private, Safe & Secured!<br><br>Buy at : <img class="ecombuynow" src="img/lazadalogo.png" onclick=window.open('https://www.lazada.com.my/products/google-drive-unlimited-storage-shared-drive-private-safe-reliable-lifetime-access-i1302896966-s3981712620.html','_blank')> <img class="ecombuynow" src="img/shopeelogo.jpg" onclick=window.open('https://shopee.com.my/Google-Drive-Unlimited-Storage-Shared-Drive-Private-Safe-Reliable-Lifetime-Access--i.23034983.7843291851','_blank')> <img class="ecombuynow" src="img/paypallogo.png" onclick=window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5QLK6DUJGEWG4','_blank')></p>
+							   </div>
+							</div>
+							<div class="item">
+							   <div class="carousel-login-card text-center">
+								  <img src="img/product_2.png" class="img-carousel" alt="LOGO">
+								  <h5 class="mt-5 mb-3">Questions on our services? We're hearing!</h5>
+								  <p class="mb-4">It's your rightful choice feel free to ask us<br> all you have discovered within our distribution<br><br>Email : <span style="border-radius:25px;background-color:#bfbebe;color:black;padding:5px;">askus.silverskolldigitaltrends@gmail.com<span></p>
+							   </div>
+							</div>
+							<div class="item">
+							   <div class="carousel-login-card text-center">
+								  <img src="img/product_3.png" class="img-carousel" alt="LOGO">
+								  <h5 class="mt-5 mb-3">It's always Free Delivery for anything in digital!</h5>
+								  <p class="mb-4">Digital Era is growing exponetially and so anyone who take a dive in it,<br> must required their will is delivered best!<br><br> We ensure your digital purchase with us is securely accessible</p>
+							   </div>
+							</div>
+						 </div>
+					  </div>
+				   </div>
+				</div>
+			 </div>
+      </section>
+      <!-- Bootstrap core JavaScript-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Core plugin JavaScript-->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- Owl Carousel -->
+      <script src="vendor/owl-carousel/owl.carousel.js"></script>
+      <!-- Custom scripts for all pages-->
+      <script src="js/custom.js"></script>
+	  <!--Background Animation Script-->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+   </body>
 </html>
